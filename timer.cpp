@@ -40,7 +40,7 @@ void Timer::reset() {
 	paused_ = false;
 }
 
-int Timer::getTicks() {
+Uint32 Timer::getTicks() {
 	if (!started_) {
 		return 0u;
 	} else if (paused_) {

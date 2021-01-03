@@ -8,7 +8,7 @@ public:
 	void unpause();
 	void restart();
 	void reset();
-	int getTicks();
+	Uint32 getTicks();
 	bool isStarted();
 	bool isPaused();
 private:
